@@ -3,7 +3,7 @@
     if ('serviceWorker' in navigator) {
         console.log('2');
          window.addEventListener('load', () => {
-             navigator.serviceWorker.register('https://javad5383.github.io/PWA/service-worker.js/')
+             navigator.serviceWorker.register('/service-worker.js/')
                  .then(registration => {
                      console.log('Service Worker is registered', registration);
                  })
