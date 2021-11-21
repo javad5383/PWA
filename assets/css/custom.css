@@ -1,0 +1,9 @@
+/*
+Custom Css
+*/
+.banner {
+    align-content: center;
+    display: block;
+    justify-content: center;
+    width: 100%;
+  }
