@@ -4,7 +4,7 @@
     "description":"this an test PWA by javad mohammadi",
     "background_color":"#fff",
     "theme_color":"#3f51b5",
-    "start_url":"/",
+    "start_url": "/index.html",
     "scope":".",
     "orientation":"portrait-primary",
     "display":"standalone",
