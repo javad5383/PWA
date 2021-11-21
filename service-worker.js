@@ -1,7 +1,7 @@
 (function () {
     "use strict";
     const filesToCache = [
-        '/',
+        
         'index.html',
         'about.html',
         'contact.html',
