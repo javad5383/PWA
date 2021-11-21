@@ -2,11 +2,11 @@
     "use strict";
     const filesToCache = [
         
-        '/index.html',
-        '/about.html',
-        '/contact.html',
-        '/shop-single.html',
-        '/shop.html',
+        'index.html',
+        'about.html',
+        'contact.html',
+        'shop-single.html',
+        'shop.html',
         'assets/css/bootstrap.min.css',
         'assets/css/custom.css',
         'assets/css/fontawesome.css',
