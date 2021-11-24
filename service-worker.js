@@ -2,11 +2,11 @@
     "use strict";
     const filesToCache = [
         
-        'index.html',
-        'about.html',
-        'contact.html',
-        'shop-single.html',
-        'shop.html',
+        '/index.html',
+        '/about.html',
+        '/contact.html',
+        '/shop-single.html',
+        '/shop.html',
         'assets/css/bootstrap.min.css',
         'assets/css/custom.css',
         'assets/css/fontawesome.css',
@@ -103,9 +103,9 @@
         self.skipWaiting();
         event.waitUntil(
             caches.open(staticCacheName)
-                .then(async cache => {
+                .then( cache => {
                     console.log('cache');
-                    return await cache.addAll(filesToCache);
+                    return  cache.addAll(filesToCache);
                 })
         );
 
@@ -131,7 +131,7 @@
 
 
      self.addEventListener('fetch', event => {
-         console.log('Fetch event for ', event.request.url);
+        //  console.log('Fetch event for ', event.request.url);
          event.respondWith(
              caches.match(event.request)
                  .then(response => {
