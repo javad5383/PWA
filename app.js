@@ -3,7 +3,7 @@
     if ('serviceWorker' in navigator) {
         // console.log('2');
         window.addEventListener('load', () => {
-            navigator.serviceWorker.register('PWA/service-worker.js', {scope: '/PWA/'}) //('/PWA/service-worker.js', {scope: '/PWA/'}) for github
+            navigator.serviceWorker.register('/PWA/service-worker.js', {scope: '/PWA/'})         //('/PWA/service-worker.js', {scope: '/PWA/'}) for github
                 .then(registration => {
                     console.log('Service Worker is registered', registration);
                 })
