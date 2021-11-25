@@ -103,9 +103,9 @@
         self.skipWaiting();
         event.waitUntil(
             caches.open(staticCacheName)
-                .then( cache => {
+                .then(async cache => {
                     console.log('cache');
-                    return  cache.addAll(filesToCache);
+                    return await  cache.addAll(filesToCache);
                 })
         );
 
