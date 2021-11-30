@@ -1,4 +1,5 @@
 (function () {
+     addBtn.style.display = 'none';
     // console.log('1');
     if ('serviceWorker' in navigator) {
         // console.log('2');
@@ -17,7 +18,7 @@
     let deferredPrompt;
     const addBtn = document.querySelector('#installBtn');
     console.log(addBtn);
-     addBtn.style.display = 'none';
+    
 
     window.addEventListener('beforeinstallprompt', (e) => {
         console.log('beforeinstallprompt fiered ');
