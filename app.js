@@ -1,5 +1,5 @@
 (function () {
-     addBtn.style.display = 'none';
+     //addBtn.style.display = 'none';
     // console.log('1');
     if ('serviceWorker' in navigator) {
         // console.log('2');
