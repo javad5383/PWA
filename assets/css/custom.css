@@ -3,7 +3,7 @@ Custom Css
 */
 .banner {
     align-content: center;
-    display: block;
+    display: none;
     justify-content: center;
     width: 100%;
   }
